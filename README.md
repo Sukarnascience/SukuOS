@@ -1,5 +1,16 @@
 ## Few DB Codes 
 
-* 0 : String End
-* 10: \n (new line)
+<tb>
+    <tr>
+        <th>Code</th>
+        <th>Command</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>String End</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>\n (new line)</td>
+    <tr>
 
