@@ -7,18 +7,18 @@
 mov ah, 0x0e
 mov bx, introofOS
 
-printString:
+printStringIntro:
     mov al, [bx]
     cmp al, 0
     je end
     int 0x10
     inc bx
-    jmp printString
+    jmp printStringIntro
 end:
     jmp $
 
 introofOS:
-    db "Hello, Sukarna Jana here... this is SukuOS which you are seeing", 0
+    db "Hello, Sukarna Jana here the creator of SukuOS", 0
 
 ; Boot Commands 
 times 510-($-$$) db 0
