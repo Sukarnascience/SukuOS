@@ -1,6 +1,6 @@
 ## Few DB Codes 
 
-<tb>
+<table>
     <tr>
         <th>Code</th>
         <th>Command</th>
@@ -13,4 +13,4 @@
         <td>10</td>
         <td>\n (new line)</td>
     <tr>
-
+</table>
