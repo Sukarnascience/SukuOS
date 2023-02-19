@@ -12,5 +12,5 @@
     <tr>
         <td>10</td>
         <td>\n (new line)</td>
-    <tr>
+    </tr>
 </table>
